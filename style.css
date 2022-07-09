@@ -472,3 +472,77 @@ a{
 #footerContainer-hakim{
     margin-top: 230px;
 }
+/*senarai-peserta.php*/
+.senaraipeserta-container{
+    height: 100vh;
+    width: 100%;
+    margin-top: 150px;
+    background-image: url(plant.jpg);
+    background-size: cover;
+    margin-bottom: 0px;
+}
+#senaraiPeserta-title{
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.tableSenaraiPeserta{
+    border-collapse: collapse;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1px;
+    margin-top: 20px;
+}
+td{
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+}
+#footerSenaraiPeserta{
+    padding: 0px;
+    background-color: transparent;
+}
+#kemaskini-btn{
+    display: flex;
+    height: 25px;
+    width: 70px;
+    background-color: #90C8AC;
+    border: 1px solid;
+    border-radius: 8px;
+}
+#kemaskini-btn >a{
+    padding: 5px;
+    font-family: 'Nova Square' , cursive;
+}
+#kemaskini-btn:hover{
+    box-shadow: 1px 1px 12px black;
+    transition-duration: 0.5s;
+}
+
+#padam-btn{
+    display: flex;
+    height: 25px;
+    width: 70px;
+    background-color: #1363DF;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-top: 2px;
+}
+#padam-btn >a{
+    padding: 5px;
+    font-family: 'Nova Square' , cursive;
+}
+#padam-btn:hover{
+    box-shadow: 1px 1px 12px black;
+    transition-duration: 0.5s;
+}
+#butang-saiz{
+    margin-top: -15px;
+}
+
+
+

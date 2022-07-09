@@ -8,8 +8,12 @@ include('guard-hakim.php');
 include('connection.php');
 include('fungsi.php');
 ?>
+<div class="senaraipeserta-container">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
 
-<h3>Senarai Peserta</h3>
+<h3 id="senaraiPeserta-title">Senarai Peserta</h3>
 <!-- Bahagian 1: memaparkan borang untuk memilih sekolah-->
 <form action='' method='POST'>
     <select name='kod_sekolah'>
@@ -20,10 +24,12 @@ include('fungsi.php');
 </form>
 
 <!-- Memanggil fail butang saiz bagi membolehkan pengguna mengubah saiz tulisan --> 
+<div id="butang-saiz">
 <?php include('butang-saiz.php'); ?>
+</div>
 
 <!-- Header bagi jadual untuk memaparkan senarai peserta-->
-<table width='100%' border='1' id='saiz'>
+<table class="tableSenaraiPeserta" width='100%' border='1' id='saiz'>
     <tr>
         <td>Nama</td>
         <td>No KP</td>
@@ -68,16 +74,20 @@ $laksana = mysqli_query($condb,$arahan_papar);
 
         # memaparkan navigasi untuk kemaskini dan hapus data peserta
         echo"<td>
-
-        |<a href='peserta-kemaskini-borang.php?".http_build_query($data_get)."'>
+        <div id='kemaskini-btn'>
+        <a href='peserta-kemaskini-borang.php?".http_build_query($data_get)."'>
         kemaskini</a>
-
-| <a href='peserta-padam-proses.php?nokp=".$m['nokp_peserta']."' onClick=\"return confirm('Adakah anda ingin memadam data ini?')\"> Hapus</a>|
-
+        </div>
+        <div id='padam-btn'>
+    <a href='peserta-padam-proses.php?nokp=".$m['nokp_peserta']."' onClick=\"return confirm('Adakah anda ingin memadam data ini?')\"> Hapus</a>
+        </div>
         </td>
         </tr>";
     }
 
 ?>
 </table>
+<div id="footerSenaraiPeserta">
 <?php include('footer.php'); ?>
+</div>
+</div>
