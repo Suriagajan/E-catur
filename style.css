@@ -1,0 +1,474 @@
+/*Index.php*/
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*header.php*/
+#header{
+    height: 50vh;
+    width: 100%;
+}
+#myVideo {
+    display: flex;
+    justify-content: center;
+    size: fill;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+#tajukUtama{
+    color: white;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    margin-top: 25px;
+    font-family: Arial;
+    font-size: 50px;
+    margin-top: 250px;
+    z-index: 2;
+}
+#subHeader{
+    color: white;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    margin-top: -10px;
+    font-family: 'Nova Square' , cursive;
+    z-index: 2;
+}
+#logo{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    margin-top: -350px;
+    margin-left: 30px;
+}
+#button1{
+    display: inline-block;
+    background: #d2dae2;
+    border-radius: 15px;
+    padding: 8px;
+    margin-left: 25px;
+}
+#button2{
+    display: inline-block;
+    background: #d2dae2;
+    border-radius: 15px;
+    padding: 8px;
+    margin-left: 25px;
+}
+#button3{
+    display: inline-block;
+    background: #d2dae2;
+    border-radius: 15px;
+    padding: 8px;
+    margin-left: 25px;
+}
+.laman{
+    display: inline-block;
+    background: #d2dae2;
+    border-radius: 15px;
+    padding: 8px;
+    margin-top: -398px;
+    margin-left: 355px;
+
+}
+#navbar{
+    display: inline-flex;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 470px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.laman:hover{
+    background-color: #3498db;
+    cursor: pointer;
+}
+#button1:hover{
+    background-color: #3498db;
+    cursor: pointer;
+}
+#button2:hover{
+    background-color: #3498db;
+    cursor: pointer;
+}
+#button3:hover{
+    background-color: #3498db;
+    cursor: pointer;
+}
+/*peserta-signup-borang.php*/
+#signup-borang{
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(chess1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#signup-title{
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+#form{
+    width: 400px;
+    height: 450px;
+    background: rgba(255, 255, 255, .2);
+    position: relative;
+    margin-top: 50px;
+    margin-left: 480px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+#signup-form{
+    position: relative;
+    height: 80%;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+#name-signup-borang{
+    position: inherit;
+    display: inline-block;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    padding-top: -30px;
+}
+#nokp-signup-borang{
+    position: inherit;
+    display: inline-block;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    padding-top: -30px;
+}
+#pass-signup-borang{
+    position: inherit;
+    display: inline-block;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-left: 23px;
+    padding-top: -30px;
+}
+#sekolah-signup-borang{
+    position: inherit;
+    display: inline-block;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    padding-top: -30px;
+}
+#daftar{
+    background-color: #079992;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top: 50px;
+    height: 30px;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+#daftar:hover{
+    cursor: pointer;
+}
+/*peserta-login-borang.php*/
+.login-borang{
+    background-image: url(chess4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+#login-title{
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.form-container{
+    width: 400px;
+    height: 450px;
+    background: rgba(255, 255, 255, .2);
+    position: relative;
+    margin-top: 50px;
+    margin-left: 480px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+#login-form{
+    position: relative;
+    height: 80%;
+    color: black;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-top: 130px;
+    margin-left: 20px;
+}
+#nokp-login{
+    position: inherit;
+    display: inline-block;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    padding-top: -30px;
+
+}
+#pass-login{
+    position: inherit;
+    display: inline-block;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    padding-top: -30px;
+}
+#login-btn{
+    background-color: #079992;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top: 50px;
+    height: 30px;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;    
+}
+#login-btn:hover{
+    cursor: pointer;
+}
+/*hakim-login-borang.php*/
+.loginHakim-borang{
+    background-image: url(chess5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+.container{
+    height: 90%;
+    width: 100%;
+}
+#loginHakim-title{
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.hakimContainer{
+    width: 400px;
+    height: 450px;
+    background: rgba(255, 255, 255, .2);
+    position: relative;
+    margin-top: 50px;
+    margin-left: 480px;
+    margin-bottom: 20px;
+    border-radius: 15px;    
+}
+#loginHakim-form{
+    position: relative;
+    height: 80%;
+    color: black;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+#kpHakim-login{
+    position: inherit;
+    display: inline-block;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    padding-top: -30px;
+}
+#passHakim-login{
+    position: inherit;
+    display: inline-block;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    padding-top: -30px;
+}
+#loginHakim-btn{
+    background-color: #079992;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top: 50px;
+    height: 30px;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;  
+}
+#loginHakim-btn:hover{
+    cursor: pointer;
+}
+/*peseta-menu.php*/
+.MenuPeserta{
+    background-image: url(plant.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin-top: 100px;
+    padding-bottom: 10px;
+}
+#pesertaMenu{
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 550px;
+    margin-right: 50px;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pesertaMenu:hover{
+    cursor: pointer;
+    background-color: #079992;
+}
+#logoutPeserta{
+    position: relative;
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logoutPeserta:hover{
+    cursor: pointer;
+    background-color: #079992;
+}
+.belumSelesai{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.Selesai{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footerContainer{
+    margin-top: 160px;
+}
+#footerText{
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*hakim-menu.php*/
+.hakim-menu{
+    height: 80vh;
+    width: 100%;
+    background-image: url(plant.jpg);
+    background-size: cover;
+    position: relative;
+    margin-top: 0px;
+}
+.MenuHakim{
+    margin-top: 310px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: flex;
+    border: 1px solid;
+    height: 30px;
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
+    background-color: #34495e;
+}
+#hakimMenuOptions{
+    padding: 5px;
+    align-items: center;
+    display: inline-block;
+    border: 1px solid;
+    border-color: white;
+    margin-left: 10px;
+    border-radius: 4px;
+    color: white;
+}
+#hakimMenuOptions:hover{
+    background-color: white;
+    color: black;
+}
+
+#namaHakim{
+    font-family:'Roboto Mono', monospace;
+    text-transform: uppercase;
+    margin-top: 150px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+}
+.tugasHakim-container{
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+}
+#tugasHakim{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+}
+#tugas{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: justify;
+    margin-left: 300px;
+    font-size: 20px;
+}
+#footerContainer-hakim{
+    margin-top: 230px;
+}
