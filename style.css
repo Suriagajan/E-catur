@@ -543,6 +543,31 @@ td{
 #butang-saiz{
     margin-top: -15px;
 }
-
-
-
+/*peserta-upload-borang.php*/
+.pesertaUpload{
+    height: 80vh;
+    width: 100%;
+    background-color: purple;
+    margin-top: 160px;
+    background-image: url(plant.jpg);
+    background-size: cover;
+}
+#pesertaUpload-title{
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+}
+#pesertaUpload-text{
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+}
+#pesertaUpload-form{
+    align-content: center;
+    margin-left: 330px;
+    margin-top: 50px;
+    color: #000;
+}
+#pesertaUpload-footer{
+    margin-top: 150px;
+}

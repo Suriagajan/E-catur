@@ -45,7 +45,8 @@ if(isset($_POST['btn-upload']))
     }
     else
     {
-        echo "<script>alert('HANYA FAIL BERFORMAT txt SAHAJA DIBENARKAN');</script>";
+        echo "<script>alert('HANYA FAIL BERFORMAT txt SAHAJA DIBENARKAN');
+        window.location.href='peserta-upload-borang.php'</script>";
     }
 }
 else
