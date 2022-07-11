@@ -610,3 +610,58 @@ td{
     border: none;
     margin-left: 20px;
 }
+/*hakim-daftar-borang.php*/
+.hakimDaftar{
+    height: 80vh;
+    width: 100%;
+    background-image: url(plant.jpg);
+    background-size: cover;
+    margin-top: 150px;
+}
+#hakimDaftar-title{
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.hakimDaftar-formContainer{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 530px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.hakimDaftar-formContainer >form{
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#hakimDaftar-name{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+#hakimDaftar-nokp{
+    margin-top: 15px;
+    margin-left: 45px;
+}
+#hakimDaftar-pass{
+    margin-top: 15px;
+    margin-left: 8px;
+}
+#hakimDaftar-btn{
+    margin-top: 50px;
+    margin-left: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    height: 25px;
+    width: 80px;
+}
+#hakimDaftar-btn:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 20px ;
+}

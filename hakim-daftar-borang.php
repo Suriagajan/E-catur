@@ -6,15 +6,19 @@ session_start();
 include('header.php');
 include('guard-hakim.php');
 ?>
-
+<style><?php include('style.css') ?></style>
+<div class="hakimDaftar">
 <!--Tajuk Antaramuka-->
-<h3>Pendaftaran Hakim Baru</h3>
+<h3 id="hakimDaftar-title">Pendaftaran Hakim Baru</h3>
 
 <!--Borang pendaftaran hakim baru-->
+<div class="hakimDaftar-formContainer">
 <form action="hakim-daftar-proses.php"  method="POST">
-    nama        <input type="text"      name="nama"><br>
-    nokp        <input type="text"      name="nokp"><br>
-    katalaluan  <input type="password"  name="katalaluan"><br>
-                <input type="submit"    value="Simpan">
+    nama        <input id="hakimDaftar-name" type="text"      name="nama"><br>
+    nokp        <input id="hakimDaftar-nokp" type="text"      name="nokp"><br>
+    katalaluan  <input id="hakimDaftar-pass" type="password"  name="katalaluan"><br>
+                <input id="hakimDaftar-btn" type="submit"    value="Simpan">
 </form>
+</div>
 <?php include('footer.php'); ?>
+</div>
