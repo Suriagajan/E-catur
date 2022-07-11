@@ -665,3 +665,36 @@ td{
     cursor: pointer;
     box-shadow: 10px 10px 20px ;
 }
+/*penilaian-peserta.php*/
+.penilaianPeserta{
+    height: 80vh;
+    width: 100%;
+    background-image: url(plant.jpg);
+    background-size: cover;
+    margin-top: 150px;
+}
+.penilaianPeserta >form{
+    margin-left: 500px;
+}
+#penilaianPeserta-title{
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+#penilaianPeserta-table{
+    margin-top: 40px;
+}
+#penilaian{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #CEE5D0;
+}
+#penilaian:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 12px black;
+    transition-duration: 0.5s;
+}.penilaianPeserta-footer{
+    margin-top: 100px;
+}

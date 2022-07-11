@@ -10,17 +10,18 @@ include('fungsi.php');
 ?>
 
 <!-- Tajuk Laman -->
-<h3>Senarai Peserta</h3>
-
+<div class="penilaianPeserta">
+<h3 id="penilaianPeserta-title">Senarai Peserta</h3>
+<style><?php include('style.css') ?></style>
 <!-- Borang carian nama peserta --> 
 <form action="" method="post">
-    Carian Peserta  <br>
-    Nama Peserta    <input type="text"  name="nama">
+    Carian  
+    Peserta         <input type="text"  name="nama">
                     <input type="submit"    value="Cari">
 </form>
 
 <!-- Header jadual bagi memaparkan senarai peserta  -->
-<table width="100%"    border="1">
+<table id="penilaianPeserta-table" width="100%"    border="1">
     <tr>
         <td>Nama</td>
         <td>No KP</td>
@@ -59,10 +60,12 @@ $laksana = mysqli_query($condb,$arahan_papar);
             <td>".$m['nokp_peserta']."</td>
             <td>".$m['nama_sekolah']."</td>
             <td>".$k=markah_individu($m['nokp_peserta'])."</td>
-
-            <td><a href='penilaian-peserta-borang.php?".http_build_query($data_get)."'>Penilaian</a></td>
+            <td><a id='penilaian' href='penilaian-peserta-borang.php?".http_build_query($data_get)."'>Penilaian</a></td>
             </tr>";
     }
 ?>
 </table>
+<div class="penilaianPeserta-footer">
 <?php include('footer.php'); ?>
+</div>
+</div>
