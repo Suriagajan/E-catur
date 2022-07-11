@@ -698,3 +698,43 @@ td{
 }.penilaianPeserta-footer{
     margin-top: 100px;
 }
+/*penilaian-peserta-borang.php*/
+.penilaianBorang{
+    height: 80vh;
+    width: 100%;
+    background-image: url(plant.jpg);
+    background-size: cover;
+    margin-top: 150px;
+}
+#penilaianBorang-title{
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+}
+#penilaianBorang-peserta{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 620px;
+    background-color: #F37878;
+}
+#penilaianBorang-peserta:hover{
+    box-shadow: 1px 1px 12px black;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.penilaianBorang-form{
+    margin-top: 50px;
+    margin-left: 450px;
+}
+#penilaianBorang-btn{
+    background-color: #90C8AC;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#penilaianBorang-btn:hover{
+    box-shadow: 1px 1px 12px black;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}

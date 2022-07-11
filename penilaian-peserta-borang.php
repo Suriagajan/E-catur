@@ -13,10 +13,11 @@ include('header.php');
 include('guard-hakim.php');
 include('connection.php');
 ?>
-
+<div class="penilaianBorang">
+<style><?php include('style.css') ?></style>
 <!-- Tajuk Laman -->
-<h3>Senarai Peserta</h3>
-<a href="penilaian-peserta.php">Senarai Nama Peserta</a>
+<h3 id="penilaianBorang-title">Penilaian Peserta</h3>
+<a id="penilaianBorang-peserta" href="penilaian-peserta.php">Senarai Peserta</a>
 
 <?php
 # arahan query untuk mencari senarai nama peserta
@@ -30,7 +31,7 @@ $laksana = mysqli_query($condb,$arahan_papar);
 $p = mysqli_fetch_array($laksana);
 
 ?>
-
+<div class="penilaianBorang-form">
 <form action='penilaian-peserta-proses.php?nokp=<?=$_GET['nokp_peserta'] ?>'method='POST'>
 
 <!--Memaparkan data yang diterima-->
@@ -83,8 +84,10 @@ $p = mysqli_fetch_array($laksana);
 
 <tr>
     <td></td>
-    <td><input  type='submit'  value='simpan'></td>
+    <td><input id="penilaianBorang-btn"  type='submit'  value='simpan'></td>
 </tr>
 </table>
 </form>
+</div>
 <?PHP include('footer.php'); ?>
+</div>
