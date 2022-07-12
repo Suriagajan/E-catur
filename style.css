@@ -738,3 +738,20 @@ td{
     transition-duration: 0.5s;
     cursor: pointer;
 }
+/*keputusan-individu.php*/
+.keputusanIndividu{
+    height: 80vh;
+    width: 100%;
+    background-image: url(plant.jpg);
+    background-size: cover;
+    margin-top: 150px;
+}
+#main_title{
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.keputusanIndividu-footer{
+    margin-top: 150px;
+}
