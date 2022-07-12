@@ -14,9 +14,14 @@ include('header.php');
 include('fungsi.php');
 ?>
 <style> <?php include('style.css') ?></style>
+<div class="index">
 <!-- Memaparkan Syarat-syarat Pertandingan. Ubahsuai syarat pertandingan ini -->
+<div class="syarat">
 <p> Syarat Pertandingan</p>
-<li>Seorang peserta hanya boleh hantar satu penyertaan </li>
+<li>1. Seorang peserta hanya boleh mengmbil bahagian dalam satu kategori sahaja</li>
+<li>2. Setiap pemain harus menghormati satu sama lain dan tidak boleh mengkritik sesiapa</li>
+<li>3. Keputusan para juri adalah muktamad</li>
+</div>
 <hr>
 <!-- Memaparkan keputusan individu -->
 keputusan individu
@@ -59,3 +64,4 @@ else{
 <div id="footer-index">
 <?php include ('footer.php'); ?>
 </div>
+<div>

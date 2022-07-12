@@ -8,8 +8,9 @@ include('guard-hakim.php');
 include('connection.php');
 include('fungsi.php');
 ?>
-
-<h3>Senarai Peserta</h3>
+<style><?php include('style.css') ?></style>
+<div class="keputusanSekolah">
+<h3 id="keputusanSekolah-title">Senarai Peserta</h3>
 <!--Memanggil fail butang saiz-->
 <?php include('butang-saiz.php'); ?>
 
@@ -51,4 +52,7 @@ $bil=0;
     }
 ?>
 </table>
+<div class="keputusanSekolah-footer">
 <?php include('footer.php'); ?>
+</div>
+</div>
