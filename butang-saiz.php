@@ -23,6 +23,7 @@
 </script>
 
 <!-- Kod untuk mengubah saiz tulisan-->
+<button onclick = "window.print()">Cetak</button>
 | ubah saiz tulisan |
 
 <input name="reSize1"   type="button"   value="reset"           onclick="ubahsaiz(2)" />
