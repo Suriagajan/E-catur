@@ -14,7 +14,20 @@ $k=semak();
 if($k=="Semua peserta telah dinilai.")
 {
     # arahan untuk mencari dan menyusun peserta yang mempunyai mata tertinggi
-    $query_semak= "select* from peserta order by mata DESC";
+    $query_semak = "
+    SELECT
+    peserta.nama_peserta,
+    peserta.nokp_peserta,
+    sekolah.nama_sekolah,
+    SUM(penyertaan.mata) AS jumlah
+    FROM peserta
+    JOIN sekolah
+    ON peserta.kod_sekolah = sekolah.kod_sekolah
+    left JOIN penyertaan
+    ON peserta.nokp_peserta = penyertaan.nokp_peserta
+    GROUP BY penyertaan.nokp_peserta
+    order by jumlah DESC
+    ";
 
     # laksanakan proses pencarian 
     $laksana = mysqli_query($condb,$query_semak);
