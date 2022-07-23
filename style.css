@@ -33,31 +33,27 @@ body{
 }
 /*header.php*/
 #header{
-    height: 50vh;
+    height: 100vh;
     width: 100%;
-}
-#myVideo {
-    display: flex;
-    justify-content: center;
-    size: fill;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -25px;
+    background-size: 100%;
     z-index: -1;
-  }
+}
 #tajukUtama{
-    color: white;
+    color: #FFDF2B;
     text-align: center;
     position: relative;
     align-items: center;
     margin-top: 25px;
     font-family: Arial;
     font-size: 50px;
-    margin-top: 250px;
-    z-index: 2;
+    padding-top: 250px;
 }
 #subHeader{
-    color: white;
+    color: #FFDF2B;
     text-align: center;
     position: relative;
     align-items: center;
@@ -69,7 +65,7 @@ body{
     height: 80px;
     width: 80px;
     position: relative;
-    margin-top: -350px;
+    margin-top: -275px;
     margin-left: 30px;
 }
 #button1{
@@ -95,18 +91,22 @@ body{
 }
 .laman{
     display: inline-block;
+    position: absolute;
     background: #d2dae2;
     border-radius: 15px;
     padding: 8px;
-    margin-top: -398px;
-    margin-left: 355px;
+    margin-top: -308px;
+    margin-left: 400px;
+    z-index: 2;
 
 }
 #navbar{
     display: inline-flex;
-    position: relative;
-    margin-top: 10px;
-    margin-left: 470px;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 500px;
+    padding-top: 60px;
+    z-index: 2;
 }
 a{
     color: black;
@@ -115,19 +115,19 @@ a{
     font-size: 13px;
 }
 .laman:hover{
-    background-color: #3498db;
+    background-color: #FFDF2B;
     cursor: pointer;
 }
 #button1:hover{
-    background-color: #3498db;
+    background-color: #FFDF2B;
     cursor: pointer;
 }
 #button2:hover{
-    background-color: #3498db;
+    background-color: #FFDF2B;
     cursor: pointer;
 }
 #button3:hover{
-    background-color: #3498db;
+    background-color: #FFDF2B;
     cursor: pointer;
 }
 /*peserta-signup-borang.php*/
@@ -136,7 +136,7 @@ a{
     margin: 0;
     width: 100%;
     height: 100vh;
-    background-image: url(chess1.jpg);
+    background-image: url(cloud.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -160,7 +160,7 @@ a{
 #signup-form{
     position: relative;
     height: 80%;
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     display: inline-block;
@@ -227,7 +227,7 @@ a{
 }
 /*peserta-login-borang.php*/
 .login-borang{
-    background-image: url(chess4.jpg);
+    background-image: url(paint.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -299,7 +299,7 @@ a{
 }
 /*hakim-login-borang.php*/
 .loginHakim-borang{
-    background-image: url(chess5.jpg);
+    background-image: url(goldrain.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;

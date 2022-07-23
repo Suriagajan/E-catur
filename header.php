@@ -1,15 +1,12 @@
 <div id="header"><!-- tajuk sistem. Akan dipaprkan di sebelah atas -->
-<h1 id="tajukUtama"> PERTANDINGAN CATUR </h1>
-<img id="logo" src="logo.png"  alt="">
+<h1 id="tajukUtama"> E-FESYEN </h1>
+<img id="logo" src="logo1.png"  alt="">
 <P id="subHeader">ANJURAN PPD PETALING UTAMA </P>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
 
 <!-- Video bckground-->
-<video autoplay muted id="myVideo">
-  <source src="video2.mp4" type="video/mp4">
-</video>
 <style> <?php include('style.css'); ?></style>
 
 <!-- Bahagian menu asas.
