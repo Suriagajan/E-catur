@@ -5,6 +5,7 @@ session_start();
 
 # memnaggil fail guard-hakim.php dan header.php 
 include('header.php');
+include('guard-hakim.php');
 
 ?>
 <div class="hakim-menu">

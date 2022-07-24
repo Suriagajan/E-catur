@@ -18,11 +18,13 @@ include('fungsi.php');
 <!-- Memaparkan Syarat-syarat Pertandingan. Ubahsuai syarat pertandingan ini -->
 <div class="syarat">
 <p> Syarat Pertandingan</p>
-<li>1. Seorang peserta hanya boleh mengmbil bahagian dalam satu kategori sahaja</li>
-<li>2. Setiap pemain harus menghormati satu sama lain dan tidak boleh mengkritik sesiapa</li>
-<li>3. Keputusan para juri adalah muktamad</li>
+<li>1. Seorang peserta hanya boleh menghantar satu penyertaan sahaja.</li>
+<li>2. Terdapat dua kategori iaitu sekolah dan individu.</li>
+<li>3. Pemenang akan ditentukan dengan jumlah mata yang dikumpul.</li>
+<li>4. Keputusan hanya akan dipaprkan setelah semua peserta telah dinilai.</li>
+<li>5. Semua penyertaan akan mendapat sijil penyertaan.</li>
 </div>
-<hr>
+
 <!-- Memaparkan keputusan individu -->
 keputusan individu
 <?PHP
@@ -42,7 +44,7 @@ else{
     echo"<br>Proses Penilaian masih dibuat";
 }
 ?>
-<hr>
+
 <!-- Memaparkan keputusan keseluruhan sekolah -->
 keputusan sekolah
 

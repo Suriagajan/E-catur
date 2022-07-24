@@ -5,6 +5,7 @@ session_start();
 # memanggil fail header, guard-peserta, connection dan fungsi
 include('header.php');
 include('connection.php');
+include('guard-peserta.php');
 include('fungsi.php');
 
 # pembolehubah $k semak mengambil nilai yang dipulangkan oleh fungsi semak
