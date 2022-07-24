@@ -1,5 +1,5 @@
 <div id="header"><!-- tajuk sistem. Akan dipaprkan di sebelah atas -->
-<h1 id="tajukUtama"> E-FESYEN </h1>
+<h1 id="tajukUtama">PERTANDINGAN E-FESYEN </h1>
 <img id="logo" src="logo1.png"  alt="">
 <P id="subHeader">ANJURAN PPD PETALING UTAMA </P>
 <link rel="preconnect" href="https://fonts.googleapis.com">
