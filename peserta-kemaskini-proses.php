@@ -12,7 +12,7 @@ if(!empty($_POST))
     include('connection.php');
 
     # pengesahan data (validation) nokp peserta
-    if(strlen($_POST['nokp'] != 12 or !is_numeric($_POST['nokp'])))
+    if(strlen($_POST['nokp']) != 12 or !is_numeric($_POST['nokp']))
     {
         die("<script>alert('Ralat Nokp');
         window.history.back();</script>");
@@ -24,7 +24,7 @@ if(!empty($_POST))
     katalaluan_peserta      =   '".$_POST['katalaluan']."',
     kod_sekolah             =   '".$_POST['kod_sekolah']."'
     where
-    nokp_peserta            =   '".$_POST['nokp_lama']."' ";
+    nokp_peserta            =   '".$_GET['nokp_lama']."' ";
 
 # melaksanakan dan menyemak proses kemaskini 
 if(mysqli_query($condb,$arahan))

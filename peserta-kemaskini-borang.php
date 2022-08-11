@@ -19,7 +19,7 @@ if(empty($_GET))
 <form action='peserta-kemaskini-proses.php?nokp_lama=<?= $_GET['nokp'] ?>'
 method='POST'>
 
-Nama
+nama
 <input type='text'  name='nama'     value='<?= $_GET['nama'] ?>'    required><br>
 
 nokp
