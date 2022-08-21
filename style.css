@@ -388,7 +388,6 @@ a{
     padding: 5px;
     position: relative;
     margin-top: 40px;
-    margin-left: 550px;
     margin-right: 50px;
     border-radius: 7px;
     font-family: Arial, Helvetica, sans-serif;
@@ -423,8 +422,19 @@ a{
     justify-content: center;
     align-items: center;
 }
+.pesertaMenu{
+    text-align: center;
+    align-items: center;
+}
+#tempatText{
+    font-family: 'Roboto', sans-serif;
+}
+#num{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
 .footerContainer{
-    margin-top: 160px;
+    margin-top: 100px;
 }
 #footerText{
     text-align: center;
@@ -470,7 +480,7 @@ a{
 #namaHakim{
     font-family:'Roboto Mono', monospace;
     text-transform: uppercase;
-    margin-top: 150px;
+    margin-top: 80px;
     text-align: center;
     align-items: center;
     font-size: 30px;
@@ -499,11 +509,51 @@ a{
 #footerContainer-hakim{
     margin-top: 230px;
 }
+/* peseta-kemaskini-borang.php*/
+.pesertaKemaskini{
+    height: 80vh;
+    width: 100%;
+    margin-top: 80px;
+    background-image: url(plant.jpg);
+    background-size: cover;
+}
+.pesertaKemaskini >h3{
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 30px;
+}
+#kemaskini{
+    margin-left: 500px;
+    margin-top: 40px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: grey;
+}
+#kemaskini >input{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#kemaskini >select{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#kemaskiniSubmit-btn{
+    height: 30px;
+    width: 80px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+}
 /*senarai-peserta.php*/
 .senaraipeserta-container{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 80px;
     background-image: url(plant.jpg);
     background-size: cover;
     margin-bottom: 0px;
@@ -574,7 +624,7 @@ td{
 .pesertaUpload{
     height: 80vh;
     width: 100%;
-    margin-top: 160px;
+    margin-top: 100px;
     background-image: url(plant.jpg);
     background-size: cover;
 }
@@ -602,10 +652,10 @@ td{
     width: 100%;
     background-image: url(plant.jpg);
     background-size: cover;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .senaraiHakim-footer{
-    margin-top: 100px;
+    margin-top: 10px;
 }
 #senaraiHakim-title{
     text-align: center;
@@ -643,7 +693,7 @@ td{
     width: 100%;
     background-image: url(plant.jpg);
     background-size: cover;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 #hakimDaftar-title{
     text-align: center;
@@ -698,7 +748,7 @@ td{
     width: 100%;
     background-image: url(plant.jpg);
     background-size: cover;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .penilaianPeserta >form{
     margin-left: 500px;
@@ -731,7 +781,7 @@ td{
     width: 100%;
     background-image: url(plant.jpg);
     background-size: cover;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 #penilaianBorang-title{
     text-align: center;
@@ -771,7 +821,7 @@ td{
     width: 100%;
     background-image: url(plant.jpg);
     background-size: cover;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 #main_title{
     text-align: center;
@@ -788,7 +838,7 @@ td{
     width: 100%;
     background-image: url(plant.jpg);
     background-size: cover;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 #keputusanSekolah-title{
     text-align: center;

@@ -13,10 +13,11 @@ if(empty($_GET))
     die("<script>window.location.href='senarai-peserta.php';</script>");
 }
 ?>
-
+<style><?php include('style.css') ?></style>
+<div class="pesertaKemaskini">
 <h3>Kemaskini Peserta Baru</h3>
 
-<form action='peserta-kemaskini-proses.php?nokp_lama=<?= $_GET['nokp'] ?>'
+<form id="kemaskini" action='peserta-kemaskini-proses.php?nokp_lama=<?= $_GET['nokp'] ?>'
 method='POST'>
 
 nama
@@ -36,6 +37,7 @@ sekolah
 <?= $list=senarai_sekolah(); ?>
 </select><br>
 
-    <input type='submit'    value='Kemaskini'>
+    <input id="kemaskiniSubmit-btn" type='submit'    value='Kemaskini'>
 </form>
 <?php include('footer.php'); ?>
+</div>

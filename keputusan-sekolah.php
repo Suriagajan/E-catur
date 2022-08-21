@@ -10,7 +10,7 @@ include('fungsi.php');
 ?>
 <style><?php include('style.css') ?></style>
 <div class="keputusanSekolah">
-<h3 id="keputusanSekolah-title">Senarai Peserta</h3>
+<h3 id="keputusanSekolah-title">KEPUTUSAN SEKOLAH</h3>
 <!--Memanggil fail butang saiz-->
 <?php include('butang-saiz.php'); ?>
 

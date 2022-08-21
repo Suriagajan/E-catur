@@ -1,3 +1,7 @@
+<div class="pesertaMenu">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <?php
 # memulakan fungsi session
 session_start();
@@ -41,15 +45,15 @@ if($k=="Semua peserta telah dinilai.")
         if($m['nokp_peserta']==$_SESSION['nokp'])
         {
             # paparkan kedudukan keputusan peserta tersebut
-            echo "Anda mendapat tempat ke: ".$bil."<br>";
+            echo "<div id='tempatText'>Anda mendapat tempat ke: </div><br><div id='num'> ".$bil."</div><br>";
         }
         $bil++;
     }
 }
-echo $k;
 ?>
 <div class="footerContainer">
 <?php include('footer.php'); ?>
 </div>
 <style> <?php include('style.css'); ?> </style>
+</div>
 
