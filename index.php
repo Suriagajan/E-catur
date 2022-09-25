@@ -1,5 +1,4 @@
 <!-- Memaparkan pautan (hyperlink) -->
-
 <div id="navbar">
 <div id="button1"><a href='peserta-signup-borang.php'>Daftar Peserta Baharu</a><br></div>
 <div id="button2"><a href='peserta-login-borang.php'>Login Peserta</a><br></div>
